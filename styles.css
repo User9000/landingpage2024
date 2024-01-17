@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+.menu-container{
+    padding: 20px 0;
+    display: flex;
+    background-color:  #1f2937;
+    justify-content: space-around;
+}
+
+.menu {
+   width: 600px;
+   display: flex;
+   justify-content: flex-end;
+   background-color:  #1f2937;
+
+}
+
+.link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 5px;
+    padding: 5px;        
+}
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-self: flex-start;
+}
+
+
+.landing-container {
+    background-color:  #1f2937;
+    padding: 30px 0;
+    display: flex;
+    justify-content:center;    
+
+}
+
+.landing{        
+    width: 450px;
+    height: 300px;   
+    background-color:  #1f2937;
+    margin: 80px;
+    
+
+}
+
+.landing #intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+
+    justify-self: flex-start;
+    color:white;
+}
+
+.landing p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    color:white;
+    font-size: 14px;
+    font-weight: 12px;
+}
+
+.landing button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3882F6;
+    font-weight: bold;
+    border-color: #3882F6;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    width: 95px;
+    margin: 8px;
+
+
+
+}
+
+.placeholder {
+    background-color: gray;
+    width: 450px;
+    height: 300px;   
+    margin: 80px;
+
+   
+
+}
+
+
+
